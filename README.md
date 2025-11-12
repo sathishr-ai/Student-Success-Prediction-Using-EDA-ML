@@ -34,7 +34,7 @@ Score_distribution
 ## 🪪 License
 
 This project is licensed under the [MIT License](./LICENSE).
-🪪 License ---------- MIT License © 2025 \[Sathish R\]
+[MIT License](./LICENSE) © 2025 \[Sathish R\]
 
 ## 👤 Author
 - Sathish R
