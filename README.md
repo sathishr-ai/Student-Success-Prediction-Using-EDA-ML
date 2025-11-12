@@ -16,7 +16,11 @@ This project applies *Exploratory Data Analysis (EDA)* and *Machine Learning* to
 - Scikit-learn  
 
 ## 🚀 Run Instructions
--Run all cells
+- git clone https://github.com/sathish-ai/Student-Success-Prediction-Using-EDA-ML
+- pip install-r reqirements.txt
+- jupyter notebook
+- student_performance_analysis.ipynb
+- Run all cells
 
 ## 👤 Author
 Sathish R  
