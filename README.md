@@ -32,5 +32,9 @@ Score_distribution
 <img width="1200" height="750" alt="score_distribution" src="https://github.com/user-attachments/assets/74280ec2-8968-459b-902e-7b7891d03be5" />
 
 ## 👤 Author
+Sathish R
+📧 Email: [sathxsh57@gmail.com]
+🌐 GitHub: https://github.com/your-username
+💼 LinkedIn: www.linkedin.com/in/sathish-r-2393412a5
 Sathish R  
 Connect on [LinkedIn](www.linkedin.com/in/sathish-r-2393412a5)
