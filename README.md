@@ -1,3 +1,20 @@
+# 🎓 Student Success Prediction Using EDA & ML (Python)
+This project applies *Exploratory Data Analysis (EDA)* and *Machine Learning* to predict student academic success based on performance metrics.
+
+## 📂 Files
+- student_performance.csv – Dataset  
+- student_performance_analysis.ipynb – Jupyter Notebook  
+- requirements.txt – Dependencies  
+- Output/ – Visualizations & model results  
+
+## 🧠 Technologies Used
+- Python  
+- NumPy  
+- Pandas  
+- Matplotlib  
+- Seaborn  
+- Scikit-learn
+  
 Run Instructions:
 1. Clone the repo or download files  
 2. Open ecommerce_analysis.ipynb in Colab  
