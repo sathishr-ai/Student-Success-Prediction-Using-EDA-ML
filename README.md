@@ -23,6 +23,9 @@ This project applies *Exploratory Data Analysis (EDA)* and *Machine Learning* to
 - Run all cells
 
 ## 📊 Outputs
+
+<img width="1325" height="599" alt="image" src="https://github.com/user-attachments/assets/307f8ff2-87d1-40cc-a6a7-d367787ba30d" />
+
 Correlation_heatmap
 <img width="1200" height="900" alt="correlation_heatmap" src="https://github.com/user-attachments/assets/8b34d141-643b-4e64-99c9-79362f3fcef9" />
 Score_distribution
