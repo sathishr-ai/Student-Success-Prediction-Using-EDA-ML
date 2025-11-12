@@ -17,9 +17,13 @@ This project applies *Exploratory Data Analysis (EDA)* and *Machine Learning* to
   
 🚀Run Instructions:
 1.git clone https://github.com/sathishr-ai/Student-Success-Prediction-Using-EDA-ML.git
+
 2.cd Student-Success-Prediction-Using-EDA-ML
+
 3.pip install -r requirements.txt
+
 4.jupyter notebook student_performance_analysis.ipynb  
+
 5. Run all cells
 
 Author:
