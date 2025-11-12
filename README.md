@@ -14,19 +14,13 @@ This project applies *Exploratory Data Analysis (EDA)* and *Machine Learning* to
 - Matplotlib  
 - Seaborn  
 - Scikit-learn
-
-## 🚀 How to Run
-```bash
-git clone https://github.com/sathishr-ai/Student-Success-Prediction-Using-EDA-ML.git
-cd Student-Success-Prediction-Using-EDA-ML
-pip install -r requirements.txt
-jupyter notebook student_performance_analysis.ipynb
   
-Run Instructions:
-1. Clone the repo or download files  
-2. Open ecommerce_analysis.ipynb in Colab  
-3. Upload ecommerce_sales_dataset.csv  
-4. Run all cells
+🚀Run Instructions:
+1.git clone https://github.com/sathishr-ai/Student-Success-Prediction-Using-EDA-ML.git
+2.cd Student-Success-Prediction-Using-EDA-ML
+3.pip install -r requirements.txt
+4.jupyter notebook student_performance_analysis.ipynb  
+5. Run all cells
 
 Author:
 Sathish R  
