@@ -22,7 +22,9 @@ cd Student-Success-Prediction-Using-EDA-ML
 pip install -r requirements.txt
 jupyter notebook student_performance_analysis.ipynb
 
+📊 Outputs
+Include charts, heatmaps, or screenshots from the Output folder here.
 
-## Author
-Sathish R  
+👤 Author
+Sathish R 
 Connect on [LinkedIn](www.linkedin.com/in/sathish-r-2393412a5)
