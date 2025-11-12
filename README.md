@@ -22,6 +22,9 @@ This project applies *Exploratory Data Analysis (EDA)* and *Machine Learning* to
 - student_performance_analysis.ipynb
 - Run all cells
 
+## 📊 Outputs
+Include charts, heatmaps, or screenshots from the Output folder here.
+
 ## 👤 Author
 Sathish R  
 Connect on [LinkedIn](www.linkedin.com/in/sathish-r-2393412a5)
