@@ -31,6 +31,11 @@ Correlation_heatmap
 Score_distribution
 <img width="1200" height="750" alt="score_distribution" src="https://github.com/user-attachments/assets/74280ec2-8968-459b-902e-7b7891d03be5" />
 
+## 🪪 License
+
+This project is licensed under the [MIT License](./LICENSE).
+
+
 ## 👤 Author
 - Sathish R
 - 📧 Email: [sathxsh57@gmail.com]
