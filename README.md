@@ -14,6 +14,13 @@ This project applies *Exploratory Data Analysis (EDA)* and *Machine Learning* to
 - Matplotlib  
 - Seaborn  
 - Scikit-learn
+
+## 🚀 How to Run
+```bash
+git clone https://github.com/sathishr-ai/Student-Success-Prediction-Using-EDA-ML.git
+cd Student-Success-Prediction-Using-EDA-ML
+pip install -r requirements.txt
+jupyter notebook student_performance_analysis.ipynb
   
 Run Instructions:
 1. Clone the repo or download files  
