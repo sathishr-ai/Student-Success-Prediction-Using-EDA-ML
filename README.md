@@ -13,15 +13,17 @@ This project applies *Exploratory Data Analysis (EDA)* and *Machine Learning* to
 - Pandas  
 - Matplotlib  
 - Seaborn  
-- Scikit-learn
-  
-## 🚀 Run Instructions:
-1.git clone https://github.com/sathishr-ai/Student-Success-Prediction-Using-EDA-ML.git
-2.cd Student-Success-Prediction-Using-EDA-ML
-3.pip install -r requirements.txt
-4.jupyter notebook student_performance_analysis.ipynb  
-5. Run all cells
+- Scikit-learn  
 
-Author:
-Sathish R  
+## 🚀 How to Run
+git clone https://github.com/sathishr-ai/Student-Success-Prediction-Using-EDA-ML.git
+cd Student-Success-Prediction-Using-EDA-ML
+pip install -r requirements.txt
+jupyter notebook student_performance_analysis.ipynb
+
+## 📊 Outputs
+Include charts, heatmaps, or screenshots from the Output folder here.
+
+## 👤 Author
+Sathish R 
 Connect on [LinkedIn](www.linkedin.com/in/sathish-r-2393412a5)
