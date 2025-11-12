@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Student Success Prediction Using EDA & ML (Python)
 
 Project Overview:
@@ -30,6 +29,3 @@ Notes:
 Author:
 Sathish R  
 Connect on [LinkedIn](www.linkedin.com/in/sathish-r-2393412a5)
-=======
-# Student-Success-Prediction-Using-EDA-ML
->>>>>>> 54e054699a929d5c7cd488cfa7f43a00856e36c6
