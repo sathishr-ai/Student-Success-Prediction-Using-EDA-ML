@@ -1,5 +1,4 @@
 # 🎓 Student Success Prediction Using EDA & ML (Python)
-
 This project applies **Exploratory Data Analysis (EDA)** and **Machine Learning** to predict student academic success based on performance metrics.
 
 ## 📂 Files
