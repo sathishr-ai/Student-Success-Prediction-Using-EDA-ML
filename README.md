@@ -21,10 +21,10 @@ This project applies **Exploratory Data Analysis (EDA)** and **Machine Learning*
 git clone https://github.com/sathishr-ai/Student-Success-Prediction-Using-EDA-ML.git
 cd Student-Success-Prediction-Using-EDA-ML
 🧾 1. Open the Notebook
-Launch **`ecommerce_analysis.ipynb`** in **Google Colab** or **Jupyter Notebook**.
+Launch **`student_performance_analysis.ipynb`** in **Google Colab** or **Jupyter Notebook**.
 
 📂 2. Upload the Dataset
-Upload the file **`ecommerce_sales_dataset.csv`** when prompted.
+Upload the file **`student_performance.csv`** when prompted.
 
 ▶️ 3. Run All Cells
 Execute all cells to reproduce the **analysis, visualizations, and model results**.
