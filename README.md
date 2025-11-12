@@ -1,30 +1,28 @@
-Student Success Prediction Using EDA & ML (Python)
+🎓 Student Success Prediction Using EDA & ML (Python)
 
-Project Overview:
-This project analyzes student performance data to extract insights and build predictive models for academic success.
-It includes:
-- Data cleaning and preprocessing
-- Exploratory Data Analysis (EDA) with visualizations
-- Feature engineering and correlation analysis
-- Predictive models (classification: Pass/Fail and regression: Score prediction)
-- Model evaluation and recommendations for stakeholders (teachers, schools)
+This project applies **Exploratory Data Analysis (EDA)** and **Machine Learning** to predict student academic success based on performance metrics.
 
-Files:
-- `student_performance.csv` - Synthetic dataset (1200 rows)
-- `student_success_analysis.ipynb` - Jupyter Notebook with full analysis and models
-- `student_success_analysis.py` - Python script version of the notebook
-- `requirements.txt` - Python dependencies
+## 📂 Files
+- `student_performance.csv` – Dataset  
+- `student_performance_analysis.ipynb` – Jupyter Notebook  
+- `requirements.txt` – Dependencies  
+- `Output/` – Visualizations & model results  
 
-How to run:
-1. Clone this repo
-2. Install dependencies: `pip install -r requirements.txt`
-3. Open the notebook: `jupyter notebook student_success_analysis.ipynb` or use Google Colab
-4. Run all cells. The notebook contains explanations and visual outputs.
+## 🧠 Technologies Used
+- Python  
+- NumPy  
+- Pandas  
+- Matplotlib  
+- Seaborn  
+- Scikit-learn  
 
-Notes:
-- Dataset is synthetic but realistic for portfolio demonstrations.
-- The project includes both classification (Pass/Fail) and regression (Score) approaches.
-- Suggested next steps: hyperparameter tuning, SHAP explainability, deployment, and dashboard creation.
+## 🚀 How to Run
+```bash
+git clone https://github.com/sathishr-ai/Student-Success-Prediction-Using-EDA-ML.git
+cd Student-Success-Prediction-Using-EDA-ML
+pip install -r requirements.txt
+jupyter notebook student_performance_analysis.ipynb
+
 
 Author:
 Sathish R  
