@@ -9,30 +9,32 @@ This project applies **Exploratory Data Analysis (EDA)** and **Machine Learning 
 ```
 Student-Success-Prediction/
 │
-├── student_performance.csv
-├── cleaned_student_data.csv
-├── student_performance_analysis.ipynb
-├── requirements.txt
-└── outputs/
-  │
-  ├── cleaned_student_data.csv
-  ├── confusion_matrix.png
-  ├── correlation_heatmap.png
-  ├── feature_importances.png
-  ├── model_comparison.png
-  ├── score_by_schooltype.png
-  └── score_distribution.png
+├── student_performance.csv          # Raw dataset
+├── cleaned_student_data.csv          # Cleaned data after preprocessing
+├── student_performance_analysis.ipynb # Main analysis notebook
+├── requirements.txt                  # Python dependencies
+└── outputs/                          # All generated plots and results
+    ├── cleaned_student_data.csv
+    ├── cm_Neural_Network_(MLP)_default.png
+    ├── cm_Neural_Network_(MLP)_tuned.png
+    ├── correlation_heatmap.png
+    ├── diagnostics.txt
+    ├── feature_importances.png
+    ├── model_comparison_tuned.csv
+    ├── score_by_schooltype.png
+    ├── score_distribution.png
+    ├── threshold_impact.png
+    └── threshold_tune_*.png
 ```
 
 ## 🧠 Technologies Used
 
-- Python
-- NumPy
-- Pandas
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- XGBoost
+-Python – core language
+-NumPy, Pandas – data manipulation
+-Matplotlib, Seaborn – data visualization
+-Scikit‑learn – machine learning models & preprocessing
+-Imbalanced‑learn – SMOTE for handling imbalance
+-Jupyter Notebook – interactive analysis
 
 ## 🚀 How to Run
 
@@ -49,15 +51,41 @@ student_performance_analysis.ipynb
 ```
 Run all cells.
 
+## 📊 Dataset & Preprocessing
+-The dataset contains 1,200 students with the following features:
+-Demographics: Gender, Age, School Type, Parental Education, Socioeconomic Status
+-Behavioral: Study Hours, Attendance %, Extra Classes, Internet Access, Test Prep Course
+-Academic: Previous Score, Final Score
+-Target: Pass (1 = score ≥ 50, 0 = score < 50)
 
-## 📊 Model Performance
+## Key observations:
+-Class imbalance: Only about 10% of students fail – accuracy alone is misleading.
+-Missing values were filled with mean (numeric) or mode (categorical).
+-One‑hot encoding applied to categorical variables.
+-StudentID dropped to avoid leakage.
 
-| Model | Accuracy | F1 Score | ROC-AUC |
-|-------|----------|----------|---------|
-| Logistic Regression | 0.54 | 0.49 | 0.54 |
-| Random Forest | 0.54 | 0.59 | 0.55 |
-| XGBoost | **0.56** | **0.63** | **0.56** |
+## ⚖️ Handling Class Imbalance
+Two main techniques were used:
+-SMOTE (Synthetic Minority Oversampling) – applied only on the training set to create synthetic examples of failing students.
+-Class weighting (class_weight='balanced') in models like Logistic Regression, Random Forest, and SVM.
+-Threshold tuning – after training, the optimal probability threshold for predicting the fail class was found on a validation set, maximizing the F1‑score for class 0.
 
+
+## 📈 Model Comparison
+Six models were evaluated using Macro F1-score and F1-score for the minority class (Fail).
+| Model                          | F1 (Fail) Default | F1 (Fail) Tuned | Macro F1  | Best Threshold (Fail) |
+| ------------------------------ | ----------------- | --------------- | --------- | --------------------- |
+| Neural Network (MLP)           | 0.604             | **0.663**       | **0.777** | 0.332                 |
+| Random Forest (balanced)       | 0.600             | 0.641           | 0.777     | 0.386                 |
+| Logistic Regression (balanced) | 0.588             | 0.638           | 0.760     | 0.359                 |
+| SVM (RBF, balanced)            | 0.582             | 0.638           | 0.764     | 0.365                 |
+| Gradient Boosting              | 0.545             | 0.615           | 0.743     | 0.357                 |
+| Dummy (most frequent)          | 0.175             | 0.175           | 0.087     | N/A                   |
+
+## Key Findings
+🏆 Best minority-class F1 (tuned): Neural Network (0.663)
+🥇 Best Macro F1: Neural Network & Random Forest (0.777)
+📌 All models significantly outperform the Dummy baseline.
 
 ## 📈 Visual Outputs
 
@@ -79,19 +107,19 @@ Run all cells.
 
 ## 🎯 Key Highlights
 
-✔ Performed detailed EDA  
-✔ Applied hyperparameter tuning (GridSearchCV)  
-✔ Compared multiple ML models  
-✔ Evaluated using Accuracy, F1-score & ROC-AUC  
-✔ Visualized feature relationships  
+✔ Performed in‑depth EDA to understand data distributions and relationships.
+✔ Addressed class imbalance with SMOTE, class weighting, and threshold tuning.
+✔ Compared six classification models using appropriate metrics (macro F1, per‑class F1).
+✔ Visualised results with professional plots saved in outputs/.
+✔ Demonstrated that accuracy alone is misleading – the models truly learn to identify failing students.
 
 
 ## 📌 Future Improvements
 
-- Handle class imbalance
-- Apply SMOTE
-- Deploy using Streamlit
-- Convert into API
+-Deploy the best model as a simple web app (Streamlit) for real‑time predictions.
+-Feature engineering – create interaction terms or aggregate features.
+-Try advanced algorithms like XGBoost (with scale_pos_weight) or LightGBM.
+-Cross‑validation for more robust performance estimates.
 
 ## 🪪 License
 
