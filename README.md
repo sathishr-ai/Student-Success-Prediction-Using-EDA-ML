@@ -91,9 +91,9 @@ Six models were evaluated using Macro F1-score and F1-score for the minority cla
 | Dummy (most frequent)          | 0.175             | 0.175           | 0.087     | N/A                   |
 
 ## Key Findings
-🏆 Best minority-class F1 (tuned): Neural Network (0.663)
-🥇 Best Macro F1: Neural Network & Random Forest (0.777)
-📌 All models significantly outperform the Dummy baseline.
+- 🏆 Best minority-class F1 (tuned): Neural Network (0.663)
+- 🥇 Best Macro F1: Neural Network & Random Forest (0.777)
+- 📌 All models significantly outperform the Dummy baseline.
 
 ## 📈 Visual Outputs
 
@@ -124,10 +124,10 @@ Six models were evaluated using Macro F1-score and F1-score for the minority cla
 
 ## 📌 Future Improvements
 
--Deploy the best model as a simple web app (Streamlit) for real‑time predictions.
--Feature engineering – create interaction terms or aggregate features.
--Try advanced algorithms like XGBoost (with scale_pos_weight) or LightGBM.
--Cross‑validation for more robust performance estimates.
+- Deploy the best model as a simple web app (Streamlit) for real‑time predictions.
+- Feature engineering – create interaction terms or aggregate features.
+- Try advanced algorithms like XGBoost (with scale_pos_weight) or LightGBM.
+- Cross‑validation for more robust performance estimates.
 
 ## 🪪 License
 
