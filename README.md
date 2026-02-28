@@ -14,9 +14,14 @@ Student-Success-Prediction/
 ├── student_performance_analysis.ipynb
 ├── requirements.txt
 └── outputs/
-    ├── model_comparison.png
-    ├── correlation_heatmap.png
-    └── score_distribution.png
+│
+├── cleaned_student_data.csv
+├── confusion_matrix.png
+├── correlation_heatmap.png
+├── feature_importances.png
+├── model_comparison.png
+├── score_by_schooltype.png
+└── score_distribution.png
 ```
 
 ## 🧠 Technologies Used
