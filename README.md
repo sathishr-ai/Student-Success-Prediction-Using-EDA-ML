@@ -36,6 +36,8 @@ Student-Success-Prediction/
 -Imbalanced‑learn – SMOTE for handling imbalance
 -Jupyter Notebook – interactive analysis
 
+---
+
 ## 🚀 How to Run
 
 ```bash
@@ -50,6 +52,8 @@ Open:
 student_performance_analysis.ipynb
 ```
 Run all cells.
+
+---
 
 ## 📊Dataset & Preprocessing
 
@@ -91,9 +95,12 @@ Six models were evaluated using Macro F1-score and F1-score for the minority cla
 | Dummy (most frequent)          | 0.175             | 0.175           | 0.087     | N/A                   |
 
 ## Key Findings
-- 🏆 Best minority-class F1 (tuned): Neural Network (0.663)
-- 🥇 Best Macro F1: Neural Network & Random Forest (0.777)
-- 📌 All models significantly outperform the Dummy baseline.
+
+- 🏆 **Best minority-class F1 (tuned):** Neural Network (**0.663**)  
+- 🥇 **Best Macro F1:** Neural Network & Random Forest (**0.777**)  
+- 📌 **All models significantly outperform the Dummy baseline.**
+
+---
 
 ## 📈 Visual Outputs
 
@@ -112,26 +119,32 @@ Six models were evaluated using Macro F1-score and F1-score for the minority cla
 ### 🔹 Feature importance
 <img width="1200" height="900" alt="feature_importances" src="https://github.com/user-attachments/assets/5e2b9757-aba4-4180-b7d1-8120305d8925" />
 
+---
 
 ## 🎯 Key Highlights
 
-✔ Performed in‑depth EDA to understand data distributions and relationships.
-✔ Addressed class imbalance with SMOTE, class weighting, and threshold tuning.
-✔ Compared six classification models using appropriate metrics (macro F1, per‑class F1).
-✔ Visualised results with professional plots saved in outputs/.
-✔ Demonstrated that accuracy alone is misleading – the models truly learn to identify failing students.
+✔ Performed in‑depth **EDA** to understand data distributions and relationships.  
+✔ Addressed **class imbalance** with SMOTE, class weighting, and threshold tuning.  
+✔ Compared **six classification models** using appropriate metrics (macro F1, per‑class F1).  
+✔ Visualised results with **professional plots** saved in `outputs/`.  
+✔ Demonstrated that **accuracy alone is misleading** – the models truly learn to identify failing students.
 
+---
 
 ## 📌 Future Improvements
 
-- Deploy the best model as a simple web app (Streamlit) for real‑time predictions.
-- Feature engineering – create interaction terms or aggregate features.
-- Try advanced algorithms like XGBoost (with scale_pos_weight) or LightGBM.
-- Cross‑validation for more robust performance estimates.
+- **Deploy the best model** as a simple web app (Streamlit) for real‑time predictions.  
+- **Feature engineering** – create interaction terms or aggregate features.  
+- **Try advanced algorithms** like XGBoost (with `scale_pos_weight`) or LightGBM.  
+- **Cross‑validation** for more robust performance estimates.
+
+  ---
 
 ## 🪪 License
 
 This project is licensed under the [MIT License](./LICENSE) © 2025 \[Sathish R\].
+
+---
 
 ## 👤 Author
 - Sathish R B.Tech(Artificial Intelligence and Data Science)
