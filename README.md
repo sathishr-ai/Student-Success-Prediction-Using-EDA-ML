@@ -29,12 +29,12 @@ Student-Success-Prediction/
 
 ## 🧠 Technologies Used
 
--Python – core language
--NumPy, Pandas – data manipulation
--Matplotlib, Seaborn – data visualization
--Scikit‑learn – machine learning models & preprocessing
--Imbalanced‑learn – SMOTE for handling imbalance
--Jupyter Notebook – interactive analysis
+- **Python** – core language  
+- **NumPy, Pandas** – data manipulation  
+- **Matplotlib, Seaborn** – data visualization  
+- **Scikit‑learn** – machine learning models & preprocessing  
+- **Imbalanced‑learn** – SMOTE for handling imbalance  
+- **Jupyter Notebook** – interactive analysis
 
 ---
 
