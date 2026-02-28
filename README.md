@@ -14,14 +14,14 @@ Student-Success-Prediction/
 ├── student_performance_analysis.ipynb
 ├── requirements.txt
 └── outputs/
-│
-├── cleaned_student_data.csv
-├── confusion_matrix.png
-├── correlation_heatmap.png
-├── feature_importances.png
-├── model_comparison.png
-├── score_by_schooltype.png
-└── score_distribution.png
+  │
+  ├── cleaned_student_data.csv
+  ├── confusion_matrix.png
+  ├── correlation_heatmap.png
+  ├── feature_importances.png
+  ├── model_comparison.png
+  ├── score_by_schooltype.png
+  └── score_distribution.png
 ```
 
 ## 🧠 Technologies Used
@@ -69,6 +69,12 @@ Run all cells.
 
 ### 🔹 Score Distribution
 <img width="1200" height="750" alt="score_distribution" src="https://github.com/user-attachments/assets/74280ec2-8968-459b-902e-7b7891d03be5" />
+
+### 🔹 Score by schooltype
+<img width="1050" height="600" alt="score_by_schooltype" src="https://github.com/user-attachments/assets/ea33d068-0780-491a-aa5a-98c142c2ff1d" />
+
+### 🔹 Feature importance
+<img width="1200" height="900" alt="feature_importances" src="https://github.com/user-attachments/assets/5e2b9757-aba4-4180-b7d1-8120305d8925" />
 
 
 ## 🎯 Key Highlights
