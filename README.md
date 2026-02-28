@@ -24,10 +24,12 @@ This project applies *Exploratory Data Analysis (EDA)* and *Machine Learning* to
 
 ## 📊 Outputs
 
-<img width="1325" height="599" alt="image" src="https://github.com/user-attachments/assets/307f8ff2-87d1-40cc-a6a7-d367787ba30d" />
+Model Comparison
+<img width="1902" height="856" alt="Screenshot 2026-02-28 190255" src="https://github.com/user-attachments/assets/059517b2-7316-46b1-a95c-7e4e8547ee5f" />
 
 Correlation_heatmap
 <img width="1200" height="900" alt="correlation_heatmap" src="https://github.com/user-attachments/assets/8b34d141-643b-4e64-99c9-79362f3fcef9" />
+
 Score_distribution
 <img width="1200" height="750" alt="score_distribution" src="https://github.com/user-attachments/assets/74280ec2-8968-459b-902e-7b7891d03be5" />
 
