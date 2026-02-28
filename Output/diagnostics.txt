@@ -1,0 +1,31 @@
+=== DIAGNOSTICS ===
+
+Class distribution:
+Pass
+1    0.904167
+0    0.095833
+
+Features used:
+['Age', 'StudyHours', 'AttendancePercent', 'PreviousScore', 'Gender_Male', 'Gender_Other', 'SchoolType_Public', 'ParentalEducation_Bachelor', 'ParentalEducation_High School', 'ParentalEducation_Master', 'ParentalEducation_No Formal Education', 'ExtraClasses_Yes', 'InternetAccess_Yes', 'SocioeconomicStatus_Low', 'SocioeconomicStatus_Middle']
+
+Top 10 feature importances (RF):
+PreviousScore                    0.302428
+StudyHours                       0.302230
+AttendancePercent                0.133758
+Age                              0.069729
+Gender_Male                      0.026363
+SchoolType_Public                0.021945
+ParentalEducation_High School    0.021861
+SocioeconomicStatus_Low          0.021785
+ExtraClasses_Yes                 0.019981
+SocioeconomicStatus_Middle       0.018115
+
+Threshold info:
+Dummy (most frequent): 1.0000
+Logistic Regression (balanced): 0.6679
+Random Forest (balanced): 0.5550
+Gradient Boosting: 0.1403
+SVM (RBF, balanced): 0.1928
+Neural Network (MLP): 0.5902
+
+⚠️  Class imbalance detected. Accuracy is not reliable.
