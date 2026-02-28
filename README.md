@@ -10,6 +10,7 @@ This project applies **Exploratory Data Analysis (EDA)** and **Machine Learning 
 Student-Success-Prediction/
 │
 ├── student_performance.csv
+├── cleaned_student_data.csv
 ├── student_performance_analysis.ipynb
 ├── requirements.txt
 └── outputs/
