@@ -51,25 +51,33 @@ student_performance_analysis.ipynb
 ```
 Run all cells.
 
-## 📊 Dataset & Preprocessing
--The dataset contains 1,200 students with the following features:
--Demographics: Gender, Age, School Type, Parental Education, Socioeconomic Status
--Behavioral: Study Hours, Attendance %, Extra Classes, Internet Access, Test Prep Course
--Academic: Previous Score, Final Score
--Target: Pass (1 = score ≥ 50, 0 = score < 50)
+## 📊Dataset & Preprocessing
 
-## Key observations:
--Class imbalance: Only about 10% of students fail – accuracy alone is misleading.
--Missing values were filled with mean (numeric) or mode (categorical).
--One‑hot encoding applied to categorical variables.
--StudentID dropped to avoid leakage.
+The dataset contains **1,200 students** with the following features:
 
-## ⚖️ Handling Class Imbalance
-Two main techniques were used:
--SMOTE (Synthetic Minority Oversampling) – applied only on the training set to create synthetic examples of failing students.
--Class weighting (class_weight='balanced') in models like Logistic Regression, Random Forest, and SVM.
--Threshold tuning – after training, the optimal probability threshold for predicting the fail class was found on a validation set, maximizing the F1‑score for class 0.
+- **Demographics:** Gender, Age, School Type, Parental Education, Socioeconomic Status  
+- **Behavioral:** Study Hours, Attendance %, Extra Classes, Internet Access, Test Prep Course  
+- **Academic:** Previous Score, Final Score  
+- **Target:** `Pass` (1 = score ≥ 50, 0 = score < 50)
 
+### Key Observations
+
+- **Class imbalance:** Only about 10% of students fail – accuracy alone is misleading.  
+- **Missing values** were filled with mean (numeric) or mode (categorical).  
+- **One-hot encoding** applied to categorical variables.  
+- **StudentID** dropped to avoid leakage.
+
+---
+
+## ⚖️Handling Class Imbalance
+
+Three main techniques were used:
+
+1. **SMOTE** (Synthetic Minority Oversampling) – applied only on the training set to create synthetic examples of failing students.  
+2. **Class weighting** (`class_weight='balanced'`) in models like Logistic Regression, Random Forest, and SVM.  
+3. **Threshold tuning** – after training, the optimal probability threshold for predicting the fail class was found on a validation set, maximizing the F1-score for class 0.
+
+---
 
 ## 📈 Model Comparison
 Six models were evaluated using Macro F1-score and F1-score for the minority class (Fail).
