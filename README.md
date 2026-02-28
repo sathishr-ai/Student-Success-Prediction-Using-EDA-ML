@@ -1,3 +1,96 @@
+# 🎓 Student Success Prediction Using EDA & Machine Learning
+
+This project applies **Exploratory Data Analysis (EDA)** and **Machine Learning models** to predict student academic success based on performance metrics.
+
+---
+
+## 📂 Project Structure
+
+```
+Student-Success-Prediction/
+│
+├── student_performance.csv
+├── student_performance_analysis.ipynb
+├── requirements.txt
+└── outputs/
+    ├── model_comparison.png
+    ├── correlation_heatmap.png
+    └── score_distribution.png
+```
+
+---
+
+## 🧠 Technologies Used
+
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- XGBoost
+
+---
+
+## 🚀 How to Run
+
+```bash
+git clone https://github.com/sathish-ai/Student-Success-Prediction-Using-EDA-ML
+cd Student-Success-Prediction-Using-EDA-ML
+pip install -r requirements.txt
+jupyter notebook
+```
+
+Open:
+```
+student_performance_analysis.ipynb
+```
+Run all cells.
+
+---
+
+## 📊 Model Performance
+
+| Model | Accuracy | F1 Score | ROC-AUC |
+|-------|----------|----------|---------|
+| Logistic Regression | 0.54 | 0.49 | 0.54 |
+| Random Forest | 0.54 | 0.59 | 0.55 |
+| XGBoost | **0.56** | **0.63** | **0.56** |
+
+---
+
+## 📈 Visual Outputs
+
+### 🔹 Model Comparison
+![Model Comparison](outputs/model_comparison.png)
+
+### 🔹 Correlation Heatmap
+![Correlation Heatmap](outputs/correlation_heatmap.png)
+
+### 🔹 Score Distribution
+![Score Distribution](outputs/score_distribution.png)
+
+---
+
+## 🎯 Key Highlights
+
+✔ Performed detailed EDA  
+✔ Applied hyperparameter tuning (GridSearchCV)  
+✔ Compared multiple ML models  
+✔ Evaluated using Accuracy, F1-score & ROC-AUC  
+✔ Visualized feature relationships  
+
+---
+
+## 📌 Future Improvements
+
+- Handle class imbalance
+- Apply SMOTE
+- Deploy using Streamlit
+- Convert into API
+
+
+
 # 🎓 Student Success Prediction Using EDA & ML (Python)
 This project applies *Exploratory Data Analysis (EDA)* and *Machine Learning* to predict student academic success based on performance metrics.
 
