@@ -137,7 +137,7 @@ Six models were evaluated using Macro F1-score and F1-score for the minority cla
 - **Feature engineering** – create interaction terms or aggregate features.  
 - **Try advanced algorithms** like XGBoost (with `scale_pos_weight`) or LightGBM.  
 - **Cross‑validation** for more robust performance estimates.
-
+- **These are further more future improvements
   ---
 
 ## 🪪 License
